@@ -1,0 +1,13 @@
+{
+  "baseline_accuracy": 0.9167,
+  "finetuned_accuracy": 0.4722,
+  "improvement": -0.4444,
+  "test_set_size": 36,
+  "label_map": {
+    "advice_request": 0,
+    "vent_or_solidarity": 1,
+    "sharing_resource_or_info": 2,
+    "solicitation": 3
+  },
+  "model": "distilbert-base-uncased"
+}

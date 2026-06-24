@@ -145,7 +145,7 @@ AI tools will be used at three specific points in the workflow, each with a defi
 
 **Whether to use it:** Yes — an LLM will be used to pre-label a first-pass batch of examples to speed up annotation.
 
-**Tool:** Claude (claude.ai or API).
+**Tool:** Claude API — `claude-haiku-4-5-20251001` (via Anthropic SDK). The system prompt is sent with `cache_control: ephemeral` so it is cached across all 200 calls, reducing cost and latency.
 
 **Process:**
 1. Feed each post with the label definitions and ask for a predicted label and a one-sentence rationale.
